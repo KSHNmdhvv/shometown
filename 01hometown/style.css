@@ -1,0 +1,93 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+body{
+    font-family: hkmm;
+    padding: 7px;
+    margin: 7px;
+}
+
+.container {
+    
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+
+img {
+   width: 150px;
+   margin: 6px;
+   border-radius: 50%;
+   display: flex;
+}
+.hometwn{
+    background-image: url("images/Sector-18.webp");
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+  
+    
+}
+  
+@font-face{
+    src: url(images/Oxanium-VariableFont_wght.ttf);
+    font-family: hkmm;
+
+}
+    
+    
+    
+
+#homename,#homewlcm{
+    padding: 6px;
+    background: black;
+    color: aqua;
+    text-align: center;
+    font-weight: bolder;
+    border-radius: 26px ;
+   
+  
+}
+#homename{
+    border-radius: 16px;
+}
+#activities{
+    display: flex;
+    align-items: center;
+    background-color: bisque;
+}
+h2,h3,h4,h5{
+    text-shadow: 1px 1px 1px red;
+}
+#guide{
+    display: flex;
+    justify-content: center;
+    background: rgb(159, 203, 219);
+    padding: 30px;
+    align-items: center;
+   
+}
+#guideinfo{
+     
+     border-radius: 15px;
+     margin: 0px 50px;
+}
+#guideimg{
+     width: 250px;
+    
+}
+#gimg{
+    width: 250px;
+}
+     
